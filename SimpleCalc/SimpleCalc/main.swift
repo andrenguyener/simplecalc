@@ -85,4 +85,5 @@ let first = readLine()!
 let operation = readLine()!
 let second = readLine()!
 print(Calculator().calculate([first, operation, second]))
+//print(Calculator().calculate(first))
 

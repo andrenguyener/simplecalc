@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657A6F4F200C13B90004811E /* SimpleCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D161F84A9E700D7E1F5 /* SimpleCalcTests.swift */; };
 		9F6C7D0A1F84A9CD00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
-		9F6C7D171F84A9E700D7E1F5 /* SimpleCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D161F84A9E700D7E1F5 /* SimpleCalcTests.swift */; };
 		9F6C7D1C1F84ADEC00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -183,8 +183,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657A6F4F200C13B90004811E /* SimpleCalcTests.swift in Sources */,
 				9F6C7D1C1F84ADEC00D7E1F5 /* main.swift in Sources */,
-				9F6C7D171F84A9E700D7E1F5 /* SimpleCalcTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +301,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 6YML4TDR38;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -311,7 +312,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 6YML4TDR38;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -322,7 +324,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 6YML4TDR38;
 				INFOPLIST_FILE = SimpleCalcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newardassociates.demo.SimpleCalcTests;
@@ -336,7 +338,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = PKYZS83VA8;
+				DEVELOPMENT_TEAM = 6YML4TDR38;
 				INFOPLIST_FILE = SimpleCalcTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.newardassociates.demo.SimpleCalcTests;

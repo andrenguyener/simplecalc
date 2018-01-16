@@ -63,7 +63,12 @@ public class Calculator {
         case "/":
             result = number1 / number2
         case "%":
-            result = number1 % number2
+            if (number1 > 0 && number2 < 0) || (number1 < 0 && number2 < 0) {
+                result = (number1 % number2) * -1
+            } else {
+                result = number1 % number2
+            }
+            
         default:
             result = 0
         }

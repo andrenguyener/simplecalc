@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		657A6F4F200C13B90004811E /* SimpleCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D161F84A9E700D7E1F5 /* SimpleCalcTests.swift */; };
 		9F6C7D0A1F84A9CD00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
-		9F6C7D1C1F84ADEC00D7E1F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6C7D091F84A9CD00D7E1F5 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6503E5AB204E33F400A68529 /* testjs.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = testjs.js; sourceTree = "<group>"; };
 		9F6C7D061F84A9CD00D7E1F5 /* SimpleCalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpleCalc; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6C7D091F84A9CD00D7E1F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9F6C7D141F84A9E700D7E1F5 /* SimpleCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6C7D091F84A9CD00D7E1F5 /* main.swift */,
+				6503E5AB204E33F400A68529 /* testjs.js */,
 			);
 			path = SimpleCalc;
 			sourceTree = "<group>";
@@ -184,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				657A6F4F200C13B90004811E /* SimpleCalcTests.swift in Sources */,
-				9F6C7D1C1F84ADEC00D7E1F5 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

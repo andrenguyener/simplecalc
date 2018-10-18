@@ -7,8 +7,9 @@
 //
 
 import Foundation
-
+import JavaScriptCore
 public class Calculator {
+    var jsSourceContents = [Any]()
     public func calculate(_ args: [String]) -> Int {
         let size = args.count
         let result: Int
@@ -82,13 +83,37 @@ public class Calculator {
     public func calculate(_ arg: String) -> Int {
         return calculate( arg.split(separator: " ").map({ substr in String(substr) }) )
     }
+    
+    public func invoke() {
+
+        let filename = "testjs"
+        var jsFunction = ""
+        let
+        jsContext = JSContext()
+        print("testhi")
+        if let jsSourcePath = Bundle.main.path(forResource: filename, ofType: "js") {
+            do {
+                jsFunction = try String(contentsOfFile: jsSourcePath)
+                print("method : \(jsFunction)")
+                jsSourceContents.append(jsFunction)
+                
+                var s = jsContext?.evaluateScript("test()")
+                print(s)
+            }
+            catch {
+                print(error.localizedDescription)
+            }
+        }
+    }
 }
 
-print("UW Calculator v1")
-print("Enter an expression separated by returns:")
-let first = readLine()!
-let operation = readLine()!
-let second = readLine()!
-print(Calculator().calculate([first, operation, second]))
+Calculator().invoke()
+//print("UW Calculator v1")
+//print("Enter an expression separated by returns:")
+//let first = readLine()!
+//let operation = readLine()!
+//let second = readLine()!
+//print(Calculator().calculate([first, operation, second]))
 //print(Calculator().calculate(first))
+
 

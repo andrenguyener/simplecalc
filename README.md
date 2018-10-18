@@ -1,4 +1,4 @@
-# Greetings!
+# Greetings
 This homework is designed to force you to exercise your knowledge of the Swift programming language. This homework does not involve iOS in any way.
 
 Your task is simple: Make the code compile, and make all the unit tests pass. You may not change the
